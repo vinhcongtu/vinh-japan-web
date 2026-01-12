@@ -41,7 +41,7 @@ export default function Header() {
                             <img
                                 src="/images/logo-avatar.webp"
                                 alt="Vinh Japan Logo"
-                                className="object-cover w-full h-full"
+                                className="object-cover w-full h-full pointer-events-none"
                                 onError={(e) => {
                                     // Fallback if image missing
                                     e.currentTarget.src = "https://placehold.co/100x100/2563eb/ffffff?text=V";

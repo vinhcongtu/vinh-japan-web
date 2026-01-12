@@ -99,7 +99,7 @@ export default function Footer() {
                                     <img
                                         src="/images/logo-avatar.webp"
                                         alt="Vinh Japan Logo"
-                                        className="w-full h-full object-cover"
+                                        className="w-full h-full object-cover pointer-events-none"
                                         onError={(e) => { e.currentTarget.src = "https://placehold.co/100x100?text=V"; }}
                                     />
                                 </div>
