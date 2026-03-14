@@ -49,7 +49,7 @@ export default function Footer() {
                                     className="object-contain"
                                 />
                             </div>
-                            <span className="font-semibold text-gray-800 text-sm">Follow Kênh TikTok Vinh Vũ – Kỹ sư JP</span>
+                            <span className="font-semibold text-gray-800 text-sm">Follow Kênh TikTok Vinh Vũ | Kỹ sư Japan</span>
                         </a>
 
                         {/* Card 3: YouTube */}
@@ -64,7 +64,7 @@ export default function Footer() {
                                     className="object-contain"
                                 />
                             </div>
-                            <span className="font-semibold text-gray-800 text-sm">Follow kênh youtube Vinh Vũ – Kỹ sư JP</span>
+                            <span className="font-semibold text-gray-800 text-sm">Follow kênh youtube Vinh Vũ | Kỹ sư Japan</span>
                         </a>
 
                         {/* Card 4: Zalo */}
