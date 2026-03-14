@@ -17,7 +17,7 @@ export default function Footer() {
             <section className="bg-gray-50 py-16">
                 <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
                     <h2 className={`text-2xl md:text-3xl font-extrabold text-blue-700 text-center mb-10 ${beVietnamPro.className}`}>
-                        Theo dõi Vinh HaUI trên đa nền tảng
+                        Theo dõi Vinh Japan trên đa nền tảng
                     </h2>
 
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -49,7 +49,7 @@ export default function Footer() {
                                     className="object-contain"
                                 />
                             </div>
-                            <span className="font-semibold text-gray-800 text-sm">Follow Kênh TikTok Vinh HaUI – Kỹ sư JP</span>
+                            <span className="font-semibold text-gray-800 text-sm">Follow Kênh TikTok Vinh Vũ – Kỹ sư JP</span>
                         </a>
 
                         {/* Card 3: YouTube */}
@@ -64,7 +64,7 @@ export default function Footer() {
                                     className="object-contain"
                                 />
                             </div>
-                            <span className="font-semibold text-gray-800 text-sm">Follow kênh youtube Vinh HaUI – Kỹ sư JP</span>
+                            <span className="font-semibold text-gray-800 text-sm">Follow kênh youtube Vinh Vũ – Kỹ sư JP</span>
                         </a>
 
                         {/* Card 4: Zalo */}
