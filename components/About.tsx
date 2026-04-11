@@ -40,9 +40,6 @@ export default function About() {
                             <p>
                                 Do đó mình muốn vận dụng những kiến thức, trải nghiệm, network của mình để giúp ae trên hành trình phát triển sự nghiệp. Khác với HR thuần về tuyển dụng khác, mình cũng là kỹ sư đang làm việc thực tế tại Nhật, hiểu rõ cả doanh nghiệp và ứng viên muốn gì, nên ngoài giới thiệu Job mình còn có thể tư vấn cho ae về viết CV, phỏng vấn, hay các vấn đề khác trong công việc hay cuộc sống.
                             </p>
-                            <p>
-                                Ngoài lề một chút về mình, mình rất thích kinh doanh và marketing, cũng có ước mơ sau này về Việt Nam sẽ phát triển các sản phẩm tự động hoá cho thị trường Việt. Một mình mình làm thì điều đó là rất khó khăn, nhưng nếu có thể hợp tác với vài anh em kỹ sư giỏi ở các lĩnh vực khác nhau thì mình nghĩ vẫn còn cơ hội cạnh tranh với các sản phẩm của nước ngoài trên “sân nhà Việt Nam”(mình làm phần cơ khí, 1 người làm điện, 1 người lập trình nhúng,...). Do đó mình muốn kết nối với ae bằng cách giới thiệu Job và trao đi giá trị.
-                            </p>
                         </div>
                     </div>
 
