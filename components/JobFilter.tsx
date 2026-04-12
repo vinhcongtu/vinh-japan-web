@@ -109,7 +109,7 @@ export default function JobFilter() {
                             </li>
                             <li className="flex items-start">
                                 <span className="mr-2 text-amber-500">•</span>
-                                Điền form để mình chủ động báo khi có job, hay gửi lời khuyên phù hợp.
+                                Điền form về năng lực, nguyện vọng của ae để mình chủ động báo khi có job, hay gửi tài liệu, lời khuyên phù hợp.
                             </li>
                         </ul>
                     </div>
