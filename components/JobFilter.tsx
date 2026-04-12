@@ -101,7 +101,7 @@ export default function JobFilter() {
                         <ul className="space-y-3 text-gray-700">
                             <li className="flex items-start">
                                 <span className="mr-2 text-amber-500">•</span>
-                                Follow kênh social để nắm lộ trình & tài liệu.
+                                Follow mình để không bỏ lỡ các kiến thức và cơ hội.
                             </li>
                             <li className="flex items-start">
                                 <span className="mr-2 text-amber-500">•</span>
@@ -109,7 +109,7 @@ export default function JobFilter() {
                             </li>
                             <li className="flex items-start">
                                 <span className="mr-2 text-amber-500">•</span>
-                                Điền form để mình chủ động báo khi có job.
+                                Điền form để mình chủ động báo khi có job, hay gửi lời khuyên phù hợp.
                             </li>
                         </ul>
                     </div>
