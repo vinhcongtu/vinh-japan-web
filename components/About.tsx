@@ -35,10 +35,10 @@ export default function About() {
 
                         <div className="space-y-6 text-gray-600 text-lg leading-relaxed text-justify">
                             <p>
-                                Chào anh em, mình là Vinh - cựu sinh viên HaUI, hiện đang làm kỹ sư thiết kế máy tại Yokohama, Japan. Trên hành trình tìm đường phát triển sự nghiệp tại Nhật, mình cũng từng gặp rất nhiều khó khăn trắc trở do thiếu định hướng, không nắm được bức tranh tổng quan. Mình cũng từng chứng kiến nhiều bạn bè lớp đại học phải bỏ ra hàng nghìn đô la phí môi giới để sang Nhật, hay nhiều bạn ở Nhật rồi nhưng lương quá thấp, đang loay hoay không tìm được Job phù hợp để chuyển việc.
+                                Chào anh em, mình là Vinh - cựu sinh viên HaUI, hiện đang làm kỹ sư thiết kế máy tại Yokohama, Japan. Trên hành trình tìm đường phát triển sự nghiệp tại Nhật, mình cũng từng gặp rất nhiều khó khăn trắc trở do thiếu định hướng, không nắm được bức tranh tổng quan, cơ hội cũng như kiến thức cần thiết. Mình cũng từng chứng kiến nhiều bạn bè lớp đại học phải bỏ ra hàng nghìn đô la phí môi giới để sang Nhật làm các công việc tay chân trái ngành, hay nhiều bạn ở Nhật rồi nhưng đang loay hoay không tìm được Job phù hợp để chuyển việc.
                             </p>
                             <p>
-                                Do đó mình muốn vận dụng những kiến thức, trải nghiệm, network của mình để giúp ae trên hành trình phát triển sự nghiệp. Khác với HR thuần về tuyển dụng khác, mình cũng là kỹ sư đang làm việc thực tế tại Nhật, hiểu rõ cả doanh nghiệp và ứng viên muốn gì, nên ngoài giới thiệu Job mình còn có thể tư vấn cho ae về viết CV, phỏng vấn, hay các vấn đề khác trong công việc hay cuộc sống.
+                                Do đó mình muốn vận dụng những kiến thức, trải nghiệm, network của mình để giúp ae trên hành trình phát triển sự nghiệp. Khác với HR thuần về tuyển dụng khác, mình cũng là kỹ sư đang làm việc thực tế tại Nhật, hiểu rõ cả doanh nghiệp và ứng viên muốn gì, hiểu rõ ae đang yếu ở đâu, nên ngoài giới thiệu Job mình còn có thể tư vấn cho ae về viết CV, phỏng vấn, hay các vấn đề khác trong công việc hay cuộc sống tại Nhật.
                             </p>
                         </div>
                     </div>
