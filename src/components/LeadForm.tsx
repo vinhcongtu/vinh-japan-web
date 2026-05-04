@@ -124,13 +124,13 @@ export default function LeadForm() {
         <div className="max-w-4xl mx-auto bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-100 p-8 md:p-10">
           <div className="text-center">
             <span className="block text-base md:text-lg font-extrabold uppercase tracking-widest text-blue-600 mb-2 font-[family-name:var(--font-plus-jakarta)]">
-              ĐÁNH GIÁ NĂNG LỰC & NHẬN LỘ TRÌNH
+              NHẬN LỘ TRÌNH & CỐ VẤN
             </span>
             <h2 className="text-3xl md:text-4xl font-extrabold text-slate-900 mb-4 font-[family-name:var(--font-plus-jakarta)] uppercase">
               MỞ KHOÁ KHO JOB KỸ SƯ MIỄN PHÍ
             </h2>
             <p className="text-gray-500 text-base leading-relaxed max-w-2xl mx-auto pb-6 border-b border-gray-100">
-              Dành cho cả người muốn đi Nhật và kỹ sư muốn chuyển việc tại Nhật. Hoàn thành 1 phút trắc nghiệm để Vinh nắm được tình hình của ae và đưa ra tư vấn về lộ trình phù hợp, cũng như để truy cập vào nhóm job zalo .
+              Dành cho cả người muốn đi Nhật và kỹ sư muốn chuyển việc tại Nhật. Hoàn thành 1 phút trắc nghiệm để Vinh nắm được tình hình của ae và đưa ra lời khuyên về lộ trình phù hợp, cũng như để truy cập vào nhóm job zalo .
             </p>
           </div>
 
