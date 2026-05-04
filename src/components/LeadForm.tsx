@@ -130,7 +130,7 @@ export default function LeadForm() {
               MỞ KHOÁ KHO JOB KỸ SƯ MIỄN PHÍ
             </h2>
             <p className="text-gray-500 text-base leading-relaxed max-w-2xl mx-auto pb-6 border-b border-gray-100">
-              Dành cho cả người muốn đi Nhật và kỹ sư muốn chuyển việc tại Nhật. Hoàn thành 1 phút trắc nghiệm để hệ thống vạch ra lộ trình chuẩn xác (nếu bạn mới tìm hiểu) hoặc mở khóa ngay danh sách Job độc quyền (nếu bạn đã sẵn sàng).
+              Dành cho cả người muốn đi Nhật và kỹ sư muốn chuyển việc tại Nhật. Hoàn thành 1 phút trắc nghiệm để Vinh nắm được tình hình của ae và đưa ra tư vấn về lộ trình phù hợp, cũng như để truy cập vào nhóm job zalo .
             </p>
           </div>
 
