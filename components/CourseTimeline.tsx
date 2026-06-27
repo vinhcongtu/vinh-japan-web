@@ -48,7 +48,7 @@ const modules: ModuleData[] = [
   {
     id: 4,
     title: "Modul 4: Bóc tách & Tạo bản vẽ theo tiêu chuẩn JIS/ISO",
-    description: "Học cách chuyển đổi mô hình 3D thành bản vẽ sản xuất 2D hoàn hảo, tuân thủ nghiêm ngặt tiêu chuẩn quốc tế.",
+    description: "Học cách bóc tách, tạo bản vẽ lắp, bản vẽ hàn, bản vẽ gia công, tạo bảng BOM theo tiêu chuẩn Nhật Bản.",
     details: [
       "Quy trình xuất bản vẽ lắp, bản vẽ hàn, bản vẽ gia công chi tiết từ mô hình 3D SolidWorks.",
       "Áp dụng các tiêu chuẩn JIS/ISO trong việc trình bày bản vẽ.",
