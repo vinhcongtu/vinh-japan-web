@@ -70,7 +70,7 @@ export default function LeadForm() {
               <p>• Đang ở Nhật (Chuyển việc): Yêu cầu tiếng Nhật giao tiếp tốt (JLPT N2) + Kinh nghiệm.</p>
             </div>
             <div className="mt-8 pt-6 border-t border-slate-700 font-semibold text-orange-400">
-              👉 Điền thông tin vào form bên dưới và truy cập vào nhóm Job trên Zalo.
+              👉 Điền thông tin vào form bên dưới hoặc inbox trực tiếp cho Vinh
             </div>
           </div>
 
@@ -81,14 +81,24 @@ export default function LeadForm() {
               <p>• Tiếng Nhật dưới N3 hoặc chưa có kinh nghiệm làm việc.</p>
               <p>• Sinh viên ngành kỹ thuật đang mông lung về lộ trình sự nghiệp.</p>
               <p className="font-medium text-blue-800 mt-6">
-                👉 Tham gia nhóm đăng Job trên Zalo để quan sát các Job kỹ sư thực tế đang yêu cầu gì, từ đó biết đường lên kế hoạch học tập tích luỹ kinh nghiệm. Điền Form bên dưới (Chọn mốc "Chưa có kinh nghiệm/Tiếng Nhật yếu") để nhận Lộ trình định hướng phát triển sự nghiệp.
+                👉 Tham gia nhóm đăng Job trên Zalo để quan sát các Job kỹ sư thực tế đang yêu cầu gì, từ đó biết đường lên kế hoạch học tập tích luỹ kinh nghiệm.
               </p>
             </div>
-            <div className="mt-6 bg-yellow-50 border border-yellow-200 rounded-lg p-4 flex items-start gap-3">
-              <AlertTriangle className="w-5 h-5 text-yellow-600 shrink-0 mt-0.5" />
-              <p className="text-sm text-yellow-800 leading-relaxed">
-                <span className="font-bold">Đặc quyền cho Kỹ sư Cơ khí:</span> Nếu bạn đang mắc kẹt dưới xưởng sản xuất, chưa có kinh nghiệm thiết kế cơ khí, tham khảo ngay <Link href="/thiet-ke-may-chuan-nhat" className="text-blue-600 font-bold hover:underline">Khóa huấn luyện Thiết kế Cơ khí R&D thực chiến chuẩn Nhật.</Link>
-              </p>
+            <div className="mt-6 flex flex-col gap-4">
+              <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-4 flex items-start gap-3">
+                <AlertTriangle className="w-5 h-5 text-yellow-600 shrink-0 mt-0.5" />
+                <p className="text-sm text-yellow-800 leading-relaxed">
+                  <span className="font-bold">Đặc quyền cho Kỹ sư Cơ khí:</span> Nếu bạn đang mắc kẹt dưới xưởng sản xuất, chưa có kinh nghiệm thiết kế cơ khí, tham khảo ngay <Link href="/thiet-ke-may-chuan-nhat" className="text-blue-600 font-bold hover:underline">Khóa huấn luyện Thiết kế Cơ khí R&D thực chiến chuẩn Nhật.</Link>
+                </p>
+              </div>
+              <a 
+                href="https://zalo.me/g/gfsupu825"
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="inline-block bg-blue-100 hover:bg-blue-200 text-blue-800 font-bold text-[15px] px-6 py-3 rounded-lg text-center transition-colors"
+              >
+                Vào Nhóm Job Zalo
+              </a>
             </div>
           </div>
         </div>
@@ -142,12 +152,11 @@ export default function LeadForm() {
           ) : (
             <>
               <div className="text-center mb-10">
-                <p className="text-blue-600 font-bold tracking-widest text-sm mb-3 uppercase">NHẬN LỘ TRÌNH & TÀI LIỆU</p>
                 <h2 className="text-2xl md:text-3xl font-extrabold text-gray-900 mb-4 uppercase">
-                  ĐÁNH GIÁ NĂNG LỰC & VÀO NHÓM JOB TRÊN ZALO
+                  ĐĂNG KÝ NHẬN JOB
                 </h2>
                 <p className="text-gray-600 max-w-2xl mx-auto leading-relaxed text-[15px]">
-                  Dành cho cả người muốn đi Nhật và kỹ sư muốn chuyển việc tại Nhật. Hoàn thành 1 phút trắc nghiệm để Vinh nắm được tình hình của ae và đưa ra lời khuyên về lộ trình phù hợp, cũng như để truy cập vào nhóm job zalo.
+                  Hoàn thành 1 phút trắc nghiệm để Vinh nắm được tình hình của ae và đưa ra lời khuyên về lộ trình phù hợp, cũng như để đăng ký nhận thông tin job phù hợp, tài liệu hữu ích với chuyên môn và kinh nghiệm một cách định kỳ.
                 </p>
               </div>
 
@@ -236,27 +245,6 @@ export default function LeadForm() {
                       <option value="1-3 năm kinh nghiệm">1-3 năm kinh nghiệm</option>
                       <option value="3-5 năm kinh nghiệm">3-5 năm kinh nghiệm</option>
                       <option value="5 năm kinh nghiệm trở lên">5 năm kinh nghiệm trở lên</option>
-                    </select>
-                  </div>
-
-                  {/* obstacle */}
-                  <div className="md:col-span-2">
-                    <label className="block text-sm font-semibold text-gray-700 mb-2">Trở ngại lớn nhất của bạn lúc này là gì? <span className="text-red-500">*</span></label>
-                    <select 
-                      name="obstacle" 
-                      required
-                      value={formData.obstacle}
-                      onChange={handleChange}
-                      className="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition-all bg-white"
-                    >
-                      <option value="" disabled>-- Chọn trở ngại --</option>
-                      <option value="Mông lung, chưa có lộ trình đi Nhật rõ ràng">Mông lung, chưa có lộ trình đi Nhật rõ ràng</option>
-                      <option value="Tiếng Nhật yếu, sợ không qua nổi vòng phỏng vấn">Tiếng Nhật yếu, sợ không qua nổi vòng phỏng vấn</option>
-                      <option value="Chưa có kinh nghiệm làm việc">Chưa có kinh nghiệm làm việc</option>
-                      <option value="Tiếng Nhật tốt, kinh nghiệm vững nhưng chưa tìm được Job phù hợp">Tiếng Nhật tốt, kinh nghiệm vững nhưng chưa tìm được Job phù hợp</option>
-                      {isMechanical && (
-                        <option value="Yếu chuyên môn thực chiến (Bản vẽ JIS, SolidWorks, kinh nghiệm thiết kế cơ khí)">Yếu chuyên môn thực chiến (Bản vẽ JIS, SolidWorks, kinh nghiệm thiết kế cơ khí)</option>
-                      )}
                     </select>
                   </div>
 
