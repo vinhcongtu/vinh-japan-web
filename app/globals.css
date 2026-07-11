@@ -6,4 +6,10 @@
   body {
     @apply text-slate-800 bg-white;
   }
+  img {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    user-select: none;
+    pointer-events: none;
+  }
 }
