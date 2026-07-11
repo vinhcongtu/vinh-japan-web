@@ -36,7 +36,7 @@ export default function HeroSection() {
                 href="/ky-su-nhat-ban"
                 className="text-blue-600 font-semibold hover:text-blue-800 transition-colors flex items-center gap-2 group w-full sm:w-auto justify-center"
               >
-                Nhận lộ trình & thông tin Job kỹ sư Nhật Bản free
+                Ứng tuyển & thông tin Job kỹ sư Nhật Bản free
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="18"
