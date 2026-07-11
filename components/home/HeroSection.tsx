@@ -11,12 +11,12 @@ export default function HeroSection() {
             <div className="inline-block px-4 py-1.5 mb-6 rounded-full bg-blue-100 text-blue-700 font-semibold text-sm tracking-wide uppercase">
               Career Mentor & Engineering Academy
             </div>
-            <h1 className="text-4xl md:text-5xl font-bold text-gray-900 leading-tight mb-6">
+            <h1 className="text-4xl md:text-5xl font-bold text-gray-900 leading-snug mb-6">
               KIẾN TẠO SỰ NGHIỆP <br />
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-blue-800">
+              <span className="inline-block pt-1.5 leading-tight text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-blue-800">
                 KỸ SƯ THIẾT KẾ, R&D
               </span> <br />
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-blue-800">
+              <span className="inline-block pt-1.5 leading-tight text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-blue-800">
                 CHUẨN NHẬT
               </span>
             </h1>
@@ -36,7 +36,7 @@ export default function HeroSection() {
                 href="/ky-su-nhat-ban"
                 className="text-blue-600 font-semibold hover:text-blue-800 transition-colors flex items-center gap-2 group w-full sm:w-auto justify-center"
               >
-                Ứng tuyển & thông tin Job kỹ sư Nhật Bản free
+                Nhận lộ trình & thông tin Job kỹ sư Nhật Bản free
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="18"
