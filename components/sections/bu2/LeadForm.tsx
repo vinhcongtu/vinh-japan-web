@@ -95,7 +95,7 @@ export default function LeadForm() {
                 href="https://zalo.me/g/gfsupu825"
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="inline-block bg-blue-100 hover:bg-blue-200 text-blue-800 font-bold text-[15px] px-6 py-3 rounded-lg text-center transition-colors"
+                className="inline-block bg-orange-500 hover:bg-orange-600 text-white font-bold text-[15px] px-6 py-3 rounded-lg text-center shadow-md transition-colors mt-2"
               >
                 Vào Nhóm Job Zalo
               </a>
