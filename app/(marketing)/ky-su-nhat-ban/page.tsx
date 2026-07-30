@@ -25,18 +25,18 @@ export default function KySuNhatBanPage() {
               <p className="text-lg md:text-xl text-gray-600 mb-10 leading-relaxed max-w-2xl">
                 Tuyển dụng và kết nối việc làm kỹ sư không mất phí tại Nhật Bản cho kỹ sư khối ngành kỹ thuật (cơ khí, IT, điện-điện tử, xây dựng,…).
               </p>
-              <div className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto items-center">
+              <div className="flex flex-col gap-4 w-full sm:max-w-md self-center lg:self-center">
                 <a 
                   href="#lead-form"
-                  className="inline-block bg-orange-500 hover:bg-orange-600 text-white font-bold text-lg md:text-xl px-8 py-4 rounded-full shadow-[0_10px_20px_rgba(249,115,22,0.3)] hover:shadow-[0_15px_30px_rgba(249,115,22,0.4)] transition-all transform hover:-translate-y-1 text-center"
+                  className="block w-full bg-orange-500 hover:bg-orange-600 text-white font-bold text-lg md:text-xl px-8 py-4 rounded-full shadow-[0_10px_20px_rgba(249,115,22,0.3)] hover:shadow-[0_15px_30px_rgba(249,115,22,0.4)] transition-all transform hover:-translate-y-1 text-center"
                 >
-                  ỨNG TUYỂN NGAY
+                  VÀO NHÓM ĐĂNG JOB TRÊN ZALO
                 </a>
                 <a 
                   href="https://zalo.me/0399604250"
                   target="_blank" 
                   rel="noopener noreferrer"
-                  className="inline-block bg-blue-100 hover:bg-blue-200 text-blue-800 font-bold text-lg md:text-xl px-8 py-4 rounded-full shadow-sm transition-all transform hover:-translate-y-1 text-center"
+                  className="block w-full bg-blue-100 hover:bg-blue-200 text-blue-800 font-bold text-lg md:text-xl px-8 py-4 rounded-full shadow-sm transition-all transform hover:-translate-y-1 text-center"
                 >
                   Chat Zalo với Vinh
                 </a>
