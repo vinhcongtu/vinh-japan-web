@@ -70,7 +70,7 @@ export default function HeroSection() {
               <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent"></div>
               <div className="absolute bottom-4 left-4 right-4 text-white text-center">
                 <p className="font-semibold text-lg">Vũ Thế Vinh</p>
-                <p className="text-sm opacity-90">Kỹ sư thiết kế cơ khí, chuyên gia R&D tại Japan.</p>
+                <p className="text-sm opacity-90">Kỹ sư thiết kế cơ khí tại Japan.</p>
               </div>
             </div>
           </div>
