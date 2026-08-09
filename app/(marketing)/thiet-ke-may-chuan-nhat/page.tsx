@@ -71,7 +71,7 @@ export default function CourseLandingPage() {
               </div>
               <div className="text-center mt-4 w-full">
                 <p className="font-bold text-white text-lg md:text-xl tracking-wide mb-0.5">Vũ Thế Vinh</p>
-                <p className="text-blue-100 text-[15px] font-medium">Kỹ sư thiết kế máy, chuyên gia R&D tại Yokohama, Japan</p>
+                <p className="text-blue-100 text-[15px] font-medium">Kỹ sư thiết kế máy tại Yokohama, Japan</p>
               </div>
             </div>
           </div>
