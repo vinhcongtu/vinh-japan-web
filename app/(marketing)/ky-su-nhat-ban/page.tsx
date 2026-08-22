@@ -23,7 +23,7 @@ export default function KySuNhatBanPage() {
                 <span className="text-blue-600">KỸ SƯ VIỆT - NHẬT</span>
               </h1>
               <p className="text-lg md:text-xl text-gray-600 mb-10 leading-relaxed max-w-2xl">
-                Tuyển dụng và kết nối việc làm kỹ sư không mất phí tại Nhật Bản cho kỹ sư khối ngành kỹ thuật (cơ khí, IT, điện-điện tử, xây dựng,…).
+                Kết nối việc làm kỹ sư không mất phí tại Nhật Bản cho kỹ sư khối ngành kỹ thuật (cơ khí, IT, điện-điện tử, xây dựng,…).
               </p>
               <div className="flex flex-col gap-4 w-full sm:max-w-md self-center lg:self-center">
                 <a 
