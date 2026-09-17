@@ -6,7 +6,7 @@ import CourseTimeline from "@/components/CourseTimeline";
 import FAQAccordion from "@/components/FAQAccordion";
 export const metadata: Metadata = {
   title: "Khóa Đào Tạo Thiết Kế Máy Chuẩn Nhật | Vinh Vũ",
-  description: "Trở thành Kỹ sư thiết kế R&D chuẩn Nhật trong 4-6 tháng.",
+  description: "Trở thành Kỹ sư thiết kế R&D chuẩn Nhật.",
 };
 
 export default function CourseLandingPage() {
