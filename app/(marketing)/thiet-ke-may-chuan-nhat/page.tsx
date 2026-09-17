@@ -433,7 +433,7 @@ export default function CourseLandingPage() {
               <p className="text-gray-500 text-sm italic mb-6">(Có giới hạn số học viên)</p>
               
               <div className="text-3xl md:text-4xl font-black text-blue-900 mb-8">
-                13.000.000 <span className="text-lg md:text-xl font-bold text-gray-500">VNĐ</span>
+                15.000.000 <span className="text-lg md:text-xl font-bold text-gray-500">VNĐ</span>
               </div>
               
               <ul className="space-y-4 mb-10 flex-grow">
@@ -463,7 +463,7 @@ export default function CourseLandingPage() {
               <p className="text-gray-500 text-sm italic mb-6">(Cần test đầu vào)</p>
               
               <div className="text-3xl md:text-4xl font-black text-blue-900 mb-8">
-                20.000.000 <span className="text-lg md:text-xl font-bold text-gray-500">VNĐ</span>
+                25.000.000 <span className="text-lg md:text-xl font-bold text-gray-500">VNĐ</span>
               </div>
               
               <ul className="space-y-4 mb-10 flex-grow">
@@ -473,7 +473,7 @@ export default function CourseLandingPage() {
                 </li>
                 <li className="flex items-start gap-3">
                   <Check className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" />
-                  <span className="text-gray-700 leading-relaxed text-[15px] md:text-base">Được học thêm 1 khoá vibecoding để áp dụng trong mảng robotic.</span>
+                  <span className="text-gray-700 leading-relaxed text-[15px] md:text-base">Được học thêm 1 khoá nhập môn về robotic và vibecoding để áp dụng trong mảng robotic.</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <Check className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" />
