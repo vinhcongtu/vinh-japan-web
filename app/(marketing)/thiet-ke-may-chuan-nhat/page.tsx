@@ -463,7 +463,7 @@ export default function CourseLandingPage() {
               <p className="text-gray-500 text-sm italic mb-6">(Cần test đầu vào)</p>
               
               <div className="text-3xl md:text-4xl font-black text-blue-900 mb-8">
-                25.000.000 <span className="text-lg md:text-xl font-bold text-gray-500">VNĐ</span>
+                Liên Hệ zalo <span className="text-lg md:text-xl font-bold text-gray-500">VNĐ</span>
               </div>
               
               <ul className="space-y-4 mb-10 flex-grow">
