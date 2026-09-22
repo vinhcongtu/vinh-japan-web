@@ -6,7 +6,7 @@ import CourseTimeline from "@/components/CourseTimeline";
 import FAQAccordion from "@/components/FAQAccordion";
 export const metadata: Metadata = {
   title: "Khóa Đào Tạo Thiết Kế Máy Chuẩn Nhật | Vinh Vũ",
-  description: "Chương trình huấn luyện chuyên sâu thực chiến bởi Kỹ sư thiết kế, chuyên gia R&D đang làm việc tại tập đoàn hàng đầu Nhật Bản.",
+  description: "Chương trình huấn luyện chuyên sâu thực chiến bởi Kỹ sư thiết kế đang làm việc tại tập đoàn hàng đầu Nhật Bản.",
 };
 
 export default function CourseLandingPage() {
@@ -35,7 +35,7 @@ export default function CourseLandingPage() {
               
               {/* Sub-headline */}
               <p className="text-sm md:text-base lg:text-lg text-blue-100/90 leading-relaxed mb-8 max-w-2xl mx-auto">
-                Chương trình huấn luyện chuyên sâu bởi Kỹ sư thiết kế, chuyên gia R&D đang làm việc tại tập đoàn hàng đầu Nhật Bản. Nắm trọn kiến thức tổng quan, tư duy kinh nghiệm thiết kế máy và bóc tách bản vẽ chuẩn JIS/ISO - Trang bị cho bạn năng lực thực tế để rời xưởng sản xuất, bước vào phòng thiết kế.
+                Chương trình huấn luyện chuyên sâu bởi Kỹ sư thiết kế đang làm việc tại tập đoàn hàng đầu Nhật Bản. Nắm trọn kiến thức tổng quan, tư duy kinh nghiệm thiết kế máy và bóc tách bản vẽ chuẩn JIS/ISO - Trang bị cho bạn năng lực thực tế để rời xưởng sản xuất, bước vào phòng thiết kế.
               </p>
               
               {/* Nút CTA */}
