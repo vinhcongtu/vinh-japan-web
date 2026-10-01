@@ -60,7 +60,7 @@ const modules: ModuleData[] = [
   {
     id: 5,
     title: "Modul 5: Thiết kế Máy thực chiến chuẩn tập đoàn Nhật",
-    description: "Bạn sẽ được học tư duy về thiết kế và thực chiến bằng 2 Project chính: một dự án thiết kế máy tự động hoặc một cụm cơ cấu máy tự động, và một dự án thiết kế máy tĩnh hoàn chỉnh. Trong quá trình này, bạn sẽ được hướng dẫn cách tính toán, cách lựa chọn linh kiện tiêu chuẩn từ các hãng lớn, cũng như thiết kế hệ thống khí nén, chọn động cơ và các thiết bị khác.",
+    description: "Bạn sẽ được học tư duy về thiết kế và thực chiến bằng 2 Project chính: một dự án thiết kế máy tự động hoặc một cụm cơ cấu máy tự động, và một dự án thiết kế máy tĩnh hoàn chỉnh. Trong quá trình này, bạn sẽ được hướng dẫn tư duy thiết kế, cách tính toán, cách lựa chọn linh kiện tiêu chuẩn, cũng như thiết kế hệ thống khí nén và các thiết bị khác.",
     details: [
       "Áp dụng kiến thức SolidWorks, DFM, JIS/ISO vào dự án thực tế.",
       "Thiết kế máy tự động và cơ cấu máy tĩnh từ ý tưởng đến chi tiết.",
