@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useRef } from "react";
-import { CheckCircle2, Loader2, AlertTriangle, Lock } from "lucide-react";
+import { CheckCircle2, Loader2, Lock } from "lucide-react";
 import Link from "next/link";
 
 export default function LeadForm() {
@@ -18,8 +18,6 @@ export default function LeadForm() {
   });
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [isSuccess, setIsSuccess] = useState(false);
-
-  const isMechanical = formData.industry === "Cơ khí / Ô tô/ Tự động hóa";
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement>) => {
     const { name, value } = e.target;
@@ -43,7 +41,7 @@ export default function LeadForm() {
       } else {
         alert("Lỗi máy chủ, vui lòng thử lại!");
       }
-    } catch (error) {
+    } catch {
       alert("Lỗi kết nối mạng!");
     } finally {
       setIsSubmitting(false);
@@ -54,54 +52,6 @@ export default function LeadForm() {
     <section id="lead-form" className="py-16 bg-blue-50/30">
       <div className="container mx-auto px-4 max-w-6xl">
         
-        {/* KHỐI 1: BỘ LỌC THỊ TRƯỜNG */}
-        <div className="text-center mb-10">
-          <h2 className="text-3xl md:text-4xl font-heading font-extrabold text-blue-900 uppercase">
-            BẠN ĐANG Ở ĐÂU TRÊN THỊ TRƯỜNG TUYỂN DỤNG?
-          </h2>
-        </div>
-        
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
-          {/* Card Trái (Nhóm Sẵn Sàng) */}
-          <div className="bg-slate-900 text-white rounded-xl p-8 shadow-lg flex flex-col h-full">
-            <h3 className="text-xl font-bold text-blue-400 mb-6 uppercase">NHÓM SẴN SÀNG ỨNG TUYỂN (READY-TO-WORK)</h3>
-            <div className="space-y-4 flex-grow text-[15px] leading-relaxed text-gray-200">
-              <p>• Đang ở Việt Nam: Yêu cầu tương đương N3 cứng / N2 + Ít nhất 1 năm kinh nghiệm chuyên môn thực tế. Thỉnh thoảng có job yêu cầu thấp hơn như tuyển cả không kinh nghiệm và tiếng Nhật yếu (họ đào tạo thêm) nhưng rất ít.</p>
-              <p>• Đang ở Nhật (Chuyển việc): Yêu cầu tiếng Nhật giao tiếp tốt (JLPT N2) + Kinh nghiệm.</p>
-            </div>
-            <div className="mt-8 pt-6 border-t border-slate-700 font-semibold text-orange-400">
-              👉 Điền thông tin vào form bên dưới hoặc inbox trực tiếp cho Vinh
-            </div>
-          </div>
-
-          {/* Card Phải (Nhóm Xây Dựng) */}
-          <div className="bg-white text-slate-800 border border-gray-200 rounded-xl p-8 shadow-lg flex flex-col h-full">
-            <h3 className="text-xl font-bold text-blue-900 mb-6 uppercase">NHÓM XÂY DỰNG NĂNG LỰC (FUTURE-TALENT)</h3>
-            <div className="space-y-4 flex-grow text-[15px] leading-relaxed text-gray-700">
-              <p>• Tiếng Nhật dưới N3 hoặc chưa có kinh nghiệm làm việc.</p>
-              <p>• Sinh viên ngành kỹ thuật đang mông lung về lộ trình sự nghiệp.</p>
-              <p className="font-medium text-blue-800 mt-6">
-                👉 Tham gia nhóm đăng Job trên Zalo để quan sát các Job kỹ sư thực tế đang yêu cầu gì, từ đó biết đường lên kế hoạch học tập tích luỹ kinh nghiệm.
-              </p>
-            </div>
-            <div className="mt-6 flex flex-col gap-4">
-              <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-4 flex items-start gap-3">
-                <AlertTriangle className="w-5 h-5 text-yellow-600 shrink-0 mt-0.5" />
-                <p className="text-sm text-yellow-800 leading-relaxed">
-                  <span className="font-bold">Đặc quyền cho Kỹ sư Cơ khí:</span> Nếu bạn đang mắc kẹt dưới xưởng sản xuất, chưa có kinh nghiệm thiết kế cơ khí, tham khảo ngay <Link href="/thiet-ke-may-chuan-nhat" className="text-blue-600 font-bold hover:underline">Khóa huấn luyện Thiết kế Cơ khí R&D thực chiến chuẩn Nhật.</Link>
-                </p>
-              </div>
-              <a 
-                href="https://zalo.me/g/gfsupu825"
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="inline-block bg-orange-500 hover:bg-orange-600 text-white font-bold text-[15px] px-6 py-3 rounded-lg text-center shadow-md transition-colors mt-2"
-              >
-                Vào Nhóm Job Zalo
-              </a>
-            </div>
-          </div>
-        </div>
 
         {/* KHỐI 2: FORM THU LEAD */}
         <div ref={formRef} className="max-w-4xl mx-auto bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-100 p-8 md:p-12">
