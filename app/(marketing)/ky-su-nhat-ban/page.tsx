@@ -2,6 +2,8 @@ import { Metadata } from "next";
 import Image from "next/image";
 import { Settings, Laptop, Zap, Building, Factory, Globe } from "lucide-react";
 import LeadForm from "@/components/sections/bu2/LeadForm";
+import CollapsibleAbout from "@/components/sections/bu2/CollapsibleAbout";
+import JobAudienceSection from "@/components/sections/bu2/JobAudienceSection";
 
 export const metadata: Metadata = {
   title: "Cầu Nối Sự Nghiệp Kỹ Sư Việt - Nhật | Vinh Vũ",
@@ -23,14 +25,15 @@ export default function KySuNhatBanPage() {
                 <span className="text-blue-600">KỸ SƯ VIỆT - NHẬT</span>
               </h1>
               <p className="text-lg md:text-xl text-gray-600 mb-10 leading-relaxed max-w-2xl">
-                Kết nối việc làm kỹ sư không mất phí tại Nhật Bản cho kỹ sư khối ngành kỹ thuật (cơ khí, IT, điện-điện tử, xây dựng,…).
+                Tuyển dụng và kết nối việc làm kỹ sư không mất phí tại Nhật Bản cho kỹ sư khối ngành kỹ thuật (cơ khí, IT, điện-điện tử, xây dựng,…).
               </p>
-              <div className="flex flex-col gap-4 w-full sm:max-w-md self-center lg:self-center">
+              <div className="flex w-full flex-col items-center gap-6 sm:flex-row sm:gap-5">
+              <div className="flex min-w-0 flex-1 flex-col gap-4 w-full">
                 <a 
                   href="https://zalo.me/g/gfsupu825"
                   target="_blank" 
                   rel="noopener noreferrer"
-                  className="block w-full bg-orange-500 hover:bg-orange-600 text-white font-bold text-lg md:text-xl px-8 py-4 rounded-full shadow-[0_10px_20px_rgba(249,115,22,0.3)] hover:shadow-[0_15px_30px_rgba(249,115,22,0.4)] transition-all transform hover:-translate-y-1 text-center"
+                  className="block w-full bg-orange-500 hover:bg-orange-600 text-white font-bold text-lg md:text-xl px-5 py-4 rounded-full shadow-[0_10px_20px_rgba(249,115,22,0.3)] hover:shadow-[0_15px_30px_rgba(249,115,22,0.4)] transition-all transform hover:-translate-y-1 text-center"
                 >
                   VÀO NHÓM ĐĂNG JOB TRÊN ZALO
                 </a>
@@ -38,10 +41,26 @@ export default function KySuNhatBanPage() {
                   href="https://zalo.me/0399604250"
                   target="_blank" 
                   rel="noopener noreferrer"
-                  className="block w-full bg-blue-100 hover:bg-blue-200 text-blue-800 font-bold text-lg md:text-xl px-8 py-4 rounded-full shadow-sm transition-all transform hover:-translate-y-1 text-center"
+                  className="block w-full bg-blue-100 hover:bg-blue-200 text-blue-800 font-bold text-lg md:text-xl px-5 py-4 rounded-full shadow-sm transition-all transform hover:-translate-y-1 text-center"
                 >
                   Chat Zalo với Vinh
                 </a>
+              </div>
+              <figure className="w-[184px] shrink-0 text-center">
+                <div className="rounded-2xl border border-blue-100 bg-white p-3 shadow-sm">
+                  <Image
+                    src="/images/bu2-job/Ma_QR_nhom_zalo.png"
+                    alt="Mã QR tham gia cộng đồng job kỹ sư Nhật Bản trên Zalo"
+                    width={520}
+                    height={520}
+                    unoptimized
+                    className="h-auto w-full pointer-events-auto select-auto [-webkit-touch-callout:default] [-webkit-user-select:auto]"
+                  />
+                </div>
+                <figcaption className="mt-3 text-sm leading-relaxed text-gray-600">
+                  Hoặc quét mã QR để vào nhóm zalo
+                </figcaption>
+              </figure>
               </div>
             </div>
             
@@ -67,15 +86,16 @@ export default function KySuNhatBanPage() {
       </section>
 
       {/* SECTION 2: VỀ VINH & LÝ DO LÀM HR BRIDGE */}
-      <section className="py-16 md:py-24 bg-gray-50 border-t border-gray-200">
+      <section className="py-10 md:py-24 bg-gray-50 border-t border-gray-200">
         <div className="container mx-auto px-4 max-w-6xl">
-          <div className="text-center mb-12">
+          <div className="text-center mb-6 md:mb-12">
             <h2 className="text-3xl md:text-4xl font-heading font-extrabold text-gray-900">
               Về Vinh & Lý do mình làm HR Brigde
             </h2>
           </div>
           
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-start">
+          <CollapsibleAbout>
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 md:gap-12 lg:gap-16 items-start">
             {/* Cột Trái (40% - Visual Trust) */}
             <div className="lg:col-span-5 flex flex-col gap-3">
               <div className="relative w-full rounded-xl overflow-hidden border border-gray-100 shadow-sm bg-gray-200 aspect-[4/3]">
@@ -89,20 +109,21 @@ export default function KySuNhatBanPage() {
                 <div className="absolute inset-0 z-10 bg-transparent" title="Hình ảnh có bản quyền"></div>
               </div>
               <p className="text-[15px] font-semibold text-center text-gray-700 italic px-2">
-                "Gắn kết và giao lưu với đội ngũ kỹ sư bản xứ sau giờ làm việc"
+                &quot;Gắn kết và giao lưu với đội ngũ kỹ sư bản xứ sau giờ làm việc&quot;
               </p>
             </div>
             
             {/* Cột Phải (60% - Storytelling) */}
             <div className="lg:col-span-7 flex flex-col justify-center h-full space-y-6">
               <p className="text-[17px] md:text-lg text-gray-700 leading-relaxed">
-                Chào anh em, mình là Vinh - cựu sinh viên HaUI, hiện đang làm kỹ sư thiết kế máy tại Yokohama, Japan. Trên hành trình tìm đường phát triển sự nghiệp tại Nhật, mình cũng từng gặp rất nhiều khó khăn trắc trở do thiếu định hướng, kiến thức cần thiết, cũng như không nắm được bức tranh tổng quan.
+                <span className="hidden md:inline">Chào anh em, mình là Vinh - cựu sinh viên HaUI, hiện đang làm kỹ sư thiết kế máy tại Yokohama, Japan. </span>Trên hành trình tìm đường phát triển sự nghiệp tại Nhật, mình cũng từng gặp rất nhiều khó khăn trắc trở do thiếu định hướng, kiến thức cần thiết, cũng như không nắm được bức tranh tổng quan.
               </p>
               <p className="text-[17px] md:text-lg text-gray-700 leading-relaxed">
                 Mình cũng từng chứng kiến nhiều bạn bè lớp đại học phải bỏ ra hàng nghìn đô la phí môi giới để sang Nhật làm các công việc trái ngành, tương lai mịt mờ. Khác với HR thuần về tuyển dụng khác, mình cũng là kỹ sư đang làm việc thực tế tại Nhật, hiểu rõ cả doanh nghiệp và ứng viên cần gì, thiếu gì… do đó mình muốn vận dụng những kiến thức, trải nghiệm, network của mình để giúp ae ngành kỹ thuật hiểu rõ về thị trường công việc kỹ sư tại Nhật, và kết nối job cho những anh em phù hợp.
               </p>
             </div>
           </div>
+          </CollapsibleAbout>
         </div>
       </section>
 
@@ -189,7 +210,10 @@ export default function KySuNhatBanPage() {
         </div>
       </section>
 
-      {/* SECTION 4 & 5: LEAD FORM */}
+      {/* SECTION 4: ĐỐI TƯỢNG, NGUỒN JOB & KHÓA HỌC */}
+      <JobAudienceSection />
+
+      {/* SECTION 5: LEAD FORM */}
       <LeadForm />
 
     </div>
