@@ -13,7 +13,7 @@ export default function JobAudienceSection() {
             Nhóm Zalo này dành cho <strong>sinh viên và kỹ sư các ngành kỹ thuật</strong> có định hướng làm việc tại Nhật Bản, hoặc các kỹ sư đang ở Nhật và muốn tìm cơ hội tốt hơn để chuyển việc.
           </p>
           <p className="mt-3 text-sm leading-relaxed text-gray-600">
-            (Không dành cho du học sinh, thực tập sinh,…)
+            (Không dành cho học sinh, thực tập sinh,…)
           </p>
         </div>
 
